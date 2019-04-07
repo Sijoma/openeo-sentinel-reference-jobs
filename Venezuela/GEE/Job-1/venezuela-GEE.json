@@ -1,0 +1,33 @@
+{
+    "min": -1,
+    "max": 1,
+    "imagery": {
+      "imagery": {
+        "red": "B4",
+        "nir": "B8",
+        "imagery": {
+          "extent": [
+            "2018-03-11T00:00:00Z",
+            "2018-03-11T23:59:59Z"
+          ],
+          "imagery": {
+            "extent": {
+              "west": -67.531937,
+              "south": 5.888492,
+              "east": -66.988114,
+              "north": 6.475571
+            },
+            "imagery": {
+              "process_id": "get_collection",
+              "name": "COPERNICUS/S2"
+            },
+            "process_id": "filter_bbox"
+          },
+          "process_id": "filter_daterange"
+        },
+        "process_id": "NDVI"
+      },
+      "process_id": "min_time"
+    },
+    "process_id": "stretch_colors"
+  }

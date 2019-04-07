@@ -1,0 +1,33 @@
+{
+    "min": -1,
+    "max": 1,
+    "imagery": {
+      "imagery": {
+        "red": "B04",
+        "nir": "B08",
+        "imagery": {
+          "extent": [
+            "2018-03-11T00:00:00Z",
+            "2018-03-11T00:00:00Z"
+          ],
+          "imagery": {
+            "extent": {
+              "west": -19.84697,
+              "south": 64.393024,
+              "east": -17.451951,
+              "north": 65.160775
+            },
+            "imagery": {
+              "process_id": "get_collection",
+              "name": "openEO_S2_32627_10m_L2A"
+            },
+            "process_id": "filter_bbox"
+          },
+          "process_id": "filter_daterange"
+        },
+        "process_id": "NDVI"
+      },
+      "process_id": "min_time"
+    },
+    "process_id": "stretch_colors"
+  }
