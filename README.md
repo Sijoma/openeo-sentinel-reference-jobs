@@ -11,3 +11,4 @@ One may send the process graphs to the back-ends with <http://editor.openeo.org/
 ## Changelog
 
 6. April: First jobs working for EURAC and GEE (Swiss and Netherlands region)
+7. April: Island and Venezuela working, new structure
