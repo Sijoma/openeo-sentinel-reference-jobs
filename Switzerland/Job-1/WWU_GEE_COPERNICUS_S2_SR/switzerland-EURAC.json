@@ -3,23 +3,23 @@
   "max": 1,
   "imagery": {
     "imagery": {
-      "red": "B04",
-      "nir": "B08",
+      "red": "B4",
+      "nir": "B8",
       "imagery": {
         "extent": [
-          "2018-04-30T00:00:00Z",
-          "2018-06-26T23:59:59Z"
+          "2018-06-04T00:00:00Z",
+          "2018-06-04T23:59:59Z"
         ],
         "imagery": {
           "extent": {
-            "west": 4.96871,
-            "south": 51.807693,
-            "east": 5.726767,
-            "north": 52.535366
+            "west": 8.71,
+            "south": 47,
+            "east": 9.8,
+            "north": 47.8
           },
           "imagery": {
             "process_id": "get_collection",
-            "name": "openEO_S2_32631_10m_L2A"
+            "name": "COPERNICUS/S2_SR"
           },
           "process_id": "filter_bbox"
         },
