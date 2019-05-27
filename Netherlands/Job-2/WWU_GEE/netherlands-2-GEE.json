@@ -19,7 +19,7 @@
             },
             "imagery": {
               "process_id": "get_collection",
-              "name": "COPERNICUS/S2"
+              "name": "COPERNICUS/S2_SR"
             },
             "process_id": "filter_bbox"
           },
